@@ -11,35 +11,35 @@
     Проверка входа пользователя с несуществующими логином и паролем
   status: fail
 
- - summary: |
+- summary: |
     Проверка поиска товара по ключевым словам
   status: pass
 
- - summary: |
+- summary: |
     Возможность отфильтровать товар по категории
   status: pass
 
- - summary: |
+- summary: |
     Возможность отфильтровать товары по производителю
   status: pass
-
-  - summary: |
+ 
+- summary: |
     Проверка отображения информации о товарах
   status: pass
 
- - summary: |
+- summary: |
     Проверка возможности добавить товар в корзину
   status: pass 
 
-   - summary: |
+- summary: |
     Проверка отображения добавленных товаров в корзине
   status: pass 
 
-    - summary: |
+- summary: |
      Проверка возможности оформления заказа
   status: pass
 
-   - summary: |
+- summary: |
      Проверка безопасности пользовательских данных
   status: pass
    
