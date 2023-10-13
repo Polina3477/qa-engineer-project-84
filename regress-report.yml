@@ -2,81 +2,81 @@
 test-cases:
   - summary: |
       Проверка входа пользователя с существующими логином и паролем
-  status: fail
+    status: fail
 
   - summary: |
       Регистрация пользователя с уже авторизованным в системе логином
-  status: fail
+    status: fail
   
   - summary: |
       Проверка входа пользователя с несуществующими логином и паролем
-  status: fail
+    status: fail
 
   - summary: |
       Проверка поиска товара по ключевым словам
-  status: pass
+    status: pass
 
   - summary: |
       Возможность отфильтровать товар по категории
-  status: pass
+    status: pass
 
   - summary: |
       Возможность отфильтровать товары по производителю
-  status: pass
+    status: pass
 
   - summary: |
       Проверка отображения информации о товарах
-  status: pass
+    status: pass
 
   - summary: |
       Проверка возможности добавить товар в корзину
-  status: pass 
+    status: pass 
 
   - summary: |
       Проверка отображения добавленных товаров в корзине
-  status: pass 
+    status: pass 
 
   - summary: |
       Проверка возможности оформления заказа
-  status: pass
+    status: pass
 
   - summary: |
       Проверка безопасности пользовательских данных
-  status: pass
+    status: pass
 
 bugreports: 
   - summary: |
       Проверка входа пользователя с существующими логином и паролем
-  environment: |
+    environment: |
       Cent Browser Версия 5.0.1002.354 (Официальная сборка), (32 бит) (Portable) (Chromium 102.0.5005.167)
-  steps-to-reproduce: |
-     1. Зайти на страницу магазина
-     2. Нажать на окошко внизу "Log in to comment..." чтобы зайти
-  expected-result: |
+    steps-to-reproduce: |
+      1. Зайти на страницу магазина
+      2. Нажать на окошко внизу "Log in to comment..." чтобы зайти
+    expected-result: |
       Открывается страница авторизации
-  actual-result: |
+    actual-result: |
       Не происходит вход через выбранные способы
 
   - summary: |
       Регистрация пользователя с уже авторизованным в системе логином
-  environment: |
+    environment: |
       Cent Browser Версия 5.0.1002.354 (Официальная сборка), (32 бит) (Portable) (Chromium 102.0.5005.167)
-  steps-to-reproduce: |
-     1. Зайти на страницу магазина
-     2. Нажать на окошко внизу "Log in to comment..." чтобы зайти
-  expected-result: |
+    steps-to-reproduce: |
+      1. Зайти на страницу магазина
+      2. Нажать на окошко внизу "Log in to comment..." чтобы зайти
+    expected-result: |
       Открывается страница для авторизации
-  actual-result: |
-   Нет варианта авторизации в самом магазине.Есть авторизация только через предложенные сервисы
+    actual-result: |
+      Нет варианта авторизации в самом магазине.Есть авторизация только через предложенные сервисы
 
   - summary: |
       Проверка входа пользователя с несуществующими логином и паролем
-  environment: |
+    environment: |
       Cent Browser Версия 5.0.1002.354 (Официальная сборка), (32 бит) (Portable) (Chromium 102.0.5005.167)
-  steps-to-reproduce: |
-     1. Зайти на страницу магазина
-     2. Нажать на окошко внизу "Log in to comment..." чтобы зайти
-  expected-result: |
+    steps-to-reproduce: |
+      1. Зайти на страницу магазина
+      2. Нажать на окошко внизу "Log in to comment..." чтобы зайти
+    expected-result: |
       Открывается страница для авторизации
-  actual-result: |
+    actual-result: |
       Нет варианта входа в самом магазине.Есть авторизация только через предложенные сервисы
