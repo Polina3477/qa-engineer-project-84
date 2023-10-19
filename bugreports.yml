@@ -68,4 +68,4 @@
   expected-result: |
     Запрос должен сработать успешно и не должно быть ошибки в ответе
   actual-result: |
-    Выходит ответ об ошибке "GET https://dummyjson.com/http/500/failed 500 (Internal Server Error)"
+    Выходит ответ об ошибке: GET https://dummyjson.com/http/500/failed 500 (Internal Server Error)
